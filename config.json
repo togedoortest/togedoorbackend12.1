@@ -1,0 +1,15 @@
+﻿{
+    "connectionString":"mongodb+srv://togeDoor:togeDoor123@cluster0.n4ve2.mongodb.net/togeDoor?retryWrites=true&w=majority",
+    "secret": "secrit",
+    "emailFrom": "togedooremails@gmail.com",
+    "smtpOptions": {
+
+        "service": "gmail",
+        "auth": {
+            "user":"togedooremails@gmail.com",
+            "pass":"Qaz1qaz1"
+        },
+        "tls":{
+            "rejectUnauthorized": false}
+    }
+}
